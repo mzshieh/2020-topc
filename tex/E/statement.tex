@@ -1,0 +1,35 @@
+In the Konosuba World, 
+Megumin is a famous archwizard for her trademark Explosion magic.
+She must cast Explosion once a day or die.
+Her Explosion magic is extremely powerful and consumes a lot of energy.
+Megumin can only cast Explosion once a day, 
+and she always becomes exhausted after casting Explosion.
+That is why her teammate Kazuma always carries her home and worries about her.
+
+Today, Megumin practices her Explosion on a plain area. 
+There are $n$ trees on the plain, 
+and the $i$-th tree is located at $(x_i,y_i)$ for $1\le i \le n$.
+You may assume that $(x_i,y_i)\neq(x_j,y_j)$ for $i\neq j$.
+Megumin wants to find a tree to stand on its top, 
+then cast her Explosion with the longest spell in the Konosuba World.
+Her Explosion can destroy everything within a circular area of radius $r$.
+That is, if the area is centered at $(c_x,c_y)$
+and a tree is located at $(x,y)$ where $(x-c_x)^2+(y-c_y)^2\le r^2$,
+then the tree will disappear after Megumin's Explosion.
+
+Kazuma is trying to find an ideal way for Megumin to cast Explosion.
+Assume that Megumin stands on the top of the tree located at $(x,y)$
+and then casts Explosion on the circular area centered at $(c_x,c_y)$.
+This way is ideal if it satisfies the following conditions.
+\begin{itemize}
+\item Megumin won't hurt herself while casting Explosion. That is, 
+      $(x-c_x)^2+(y-c_y)^2 > r^2$.
+\item All the other trees must disappear after Megumin's Explosion.
+      That is, for any $i$ such that $(x_i,y_i)\neq (x,y)$, 
+      we have $(x_i-c_x)^2+(y_i-c_y)^2\le r^2$.
+\end{itemize}
+
+Please help Kazuma to find out an ideal way. 
+If there is no such way for Megumin to cast, output $-1$.
+Otherwise, please tell Kazuma where the tree for Megumin to stand 
+and the center of Megumin's Explosion are.

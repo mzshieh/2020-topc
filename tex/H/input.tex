@@ -1,0 +1,15 @@
+The first line contains one integer $T$, which is the number of test cases. 
+In each test case, the first line contains one integer $n$, 
+the length of Celeste Mountain Range in kilometers.
+The second line contains $n$ integers denoting the initial heights. 
+The third line contains one integer $q$ which is the total number of 
+queries and updates. 
+Then $q$ lines follow. 
+Each of them is either in form ``$1~p~d$'' or ``$2~\ell~r$''. 
+``$1~p~d$'' represents a mysterious phenomenon 
+where $p$ is the position and $d$ is the amount of the height changed.
+That is, $h_p$ is updated with a new value $h_p+d$.
+Note that $d$ might be negative to indicate that a decrease in height.
+``$2~\ell~r$'' represents the query from Oshiro. He wants to know the maximum
+width of the constructible hotel in the segment $(\ell,r)$ with 
+height $(h_\ell,\ldots,h_r)$.

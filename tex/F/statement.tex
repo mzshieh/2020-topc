@@ -1,0 +1,16 @@
+Integer factorization serves an important role in many cryptography systems. 
+It is about finding two positive integers $p$ and $q$ 
+for a given positive composite number $n$
+such that $n=pq$ and $1<p\le q<n$.
+However, it is a well-known NP-intermediate candidate. 
+We still don't have any algorithm to solve it in polynomial time.
+
+Taylor, a number theorist, created another factorization problem as follows.
+
+Given a prime number $p$ and two integers $a_0, a_1\in\{0,1,\dots p-1\}$. 
+Find two integers $b_0, b_1\in\{0,1,\dots p-1\}$ such that 
+$a_0\equiv b_0\cdot b_1~(\bmod~p)$ and $a_1\equiv b_0+b_1~(\bmod~p)$.
+
+``This factoring is way much cooler, in the sense that it can
+be computed efficiently,'' said Taylor. 
+Now, he invites you to enjoy this new variant of factorization.

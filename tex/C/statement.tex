@@ -1,0 +1,22 @@
+The change-making problem is a classical competitive programming problem. 
+The problem is about a currency system. In this system, 
+there are $n$ available denominations of coins $\$c_1,\$c_2,\ldots,\$c_n$
+where $c_1=1$ and $c_2,\ldots,c_n$ are all integers.
+Assume you can have unlimited supply of each denomination of coins.
+The change-making problem is:
+given a target $x$, make a change of $\$x$ with minimum number of coins.
+
+The change-making problem has appeared so many times in programming contest.
+Many contestants know how to solve this problem.
+However, there are also many contestants doing it wrongly.
+For example, many of them use greedy algorithm which does not work.
+This greedy algorithm repeatedly takes the coin with greatest value
+which does not exceed $x$. 
+This algorithm actually works for some currency system 
+but not for this case: $\$1$, $\$3$, $\$4$ and the target $x=6$.
+We call such case a counterexample to this greedy algorithm, 
+and $x=6$ is a witness of the currency system $\$1$, $\$3$, $\$4$.
+
+Please write a program to find the minimum witness for a given currency system.
+If there does not exist a witness or the minimum witness is greater than 
+$10^5$, your program should output $-1$.
