@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2020.8.25)  30 AUG 2020 15:45
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2020.8.25)  30 AUG 2020 16:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1188,31 +1188,32 @@ File: image/header.png Graphic file (type bmp)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
  [8] (./C/statement.tex)
-(./C/input.tex) (./C/output.tex) (./C/spec.tex
+(./C/input.tex) (./C/output.tex) (./C/spec.tex) (../C/data/sample/1.in)
+(../C/data/sample/1.ans)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [9])
+ [9]
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
  [10] (./D/statement.tex
 File: image/d-circle.pdf Graphic file (type pdf)
 <use image/d-circle.pdf>
-)
-(./D/input.tex)
+) (./D/input.tex)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [11] (./D/output.tex) (./D/spec.tex)
+ [11]
+(./D/output.tex) (./D/spec.tex)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [12] (./E/statement.tex)
-(./E/input.tex) (./E/output.tex) (./E/spec.tex
+ [12] (./E/statement.tex) (./E/input.tex)
+(./E/output.tex) (./E/spec.tex
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
  [13])
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [14] (./F/statement.tex)
-(./F/input.tex) (./F/output.tex) (./F/spec.tex)
+ [14] (./F/statement.tex) (./F/input.tex)
+(./F/output.tex) (./F/spec.tex)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
  [15]
@@ -1221,8 +1222,8 @@ File: image/header.png Graphic file (type bmp)
  [16] (./G/statement.tex
 File: image/bafuko.jpg Graphic file (type bmp)
 <image/bafuko.jpg>
-)
-(./G/input.tex) (./G/output.tex)
+) (./G/input.tex)
+(./G/output.tex)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
  [17] (./G/spec.tex)
@@ -1251,10 +1252,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 160.
  ) 
 Here is how much of TeX's memory you used:
- 29612 strings out of 479284
- 581780 string characters out of 5886220
+ 29618 strings out of 479284
+ 581909 string characters out of 5886220
  939244 words of memory out of 5000000
- 46649 multiletter control sequences out of 15000+600000
+ 46651 multiletter control sequences out of 15000+600000
  536236 words of font info for 53 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,11n,89p,1193b,1600s stack positions out of 5000i,500n,10000p,200000b,80000s
