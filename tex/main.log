@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2020.8.25)  31 AUG 2020 21:32
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2020.8.25)  31 AUG 2020 21:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1212,29 +1212,29 @@ File: image/header.png Graphic file (type bmp)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
  [10] (./F/statement.tex) (./F/input.tex)
-(./F/output.tex) (./F/spec.tex) (../F/data/sample/1.in) (../F/data/sample/1.ans
-)
+(./F/output.tex) (./F/spec.tex
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [11]
+ [11]) (../F/data/sample/1.in)
+(../F/data/sample/1.ans)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
  [12] (./G/statement.tex
 File: image/bafuko.jpg Graphic file (type bmp)
 <image/bafuko.jpg>
-) (./G/input.tex) (./G/output.tex)
+) (./G/input.tex)
+(./G/output.tex)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [13]
-(./G/spec.tex)
+ [13] (./G/spec.tex)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [14] (./H/statement.tex) (./H/input.tex) (./H/output.tex)
-(./H/spec.tex) (../H/data/sample/1.in) (../H/data/sample/1.ans)
+ [14] (./H/statement.tex) (./H/input.tex)
+(./H/output.tex) (./H/spec.tex) (../H/data/sample/1.in) (../H/data/sample/1.ans
+)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [15]
-(../H/data/sample/2.in) (../H/data/sample/2.ans) (../H/data/sample/3.in)
+ [15] (../H/data/sample/2.in) (../H/data/sample/2.ans) (../H/data/sample/3.in) 
 (../H/data/sample/3.ans) (../H/data/sample/4.in) (../H/data/sample/4.ans)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
