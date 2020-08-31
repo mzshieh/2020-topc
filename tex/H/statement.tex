@@ -1,38 +1,24 @@
-Mr.\ Oshiro wants to build a new hotel in Celeste Mountain Range.
-He needs you to find a good place him. 
-First, Oshiro wants to build the hotel on a continuous segment 
-without any valley in between,
-and the hotel should be as wide as possible. 
-However, some places are too dangerous for the construction, 
-so he will ask you this question several times: 
-what is the maximum width of a constructible hotel 
-in a certain segment of Celeste Mountain Range?
+\epigraph{There's no such thing as public opinion.}{\textit{Jordan Ellenberg, American Mathematician}}
 
-To clarify the problem statement, we define the following terms.
-\begin{itemize}
-\item Celeste Mountain Range is $n$ kilometers long.
-\item The topography (shape of the land surface) is described by an 
-      integer sequence $h_0,\dots,h_{n-1}$ indicating the average heights in 
-      meters. $h_i$ is the average height in the area from the $i$-th kilometer
-      to the $(i+1)$-th kilometer of Celeste Mountain Range. 
-\item Every query will be a continuous segment in Celeste Mountain Range
-      that has corresponding sequence of heights.
-\item A valley is a place which is lower than its neighbors. In this problem,
-      we call an area from $i$-th kilometer to the $(i+1)$-th kilometer 
-      a valley if $h_i<\min(h_{i-1},h_{i+1})$ and $0<i<n-1$. 
-      The area before the first kilometer and the area after the $(n-2)$-th 
-      are not considered as valleys, because $h_{-1}$ and ${h_n}$ are
-      not defined.
-\item A continuous segment is a unimodal interval if it has no valley in it
-      except perhaps at either of its ends. 
-      For example, if the query segment has heights $(1,2,3,4,3,4,5)$,
-      then segments with heights $(1,2,3,4,3)$ and $(3,4,5)$ are unimodal 
-      intervals, but that with height $(3,4,3,4)$ is not. 
-\item Mr.\ Oshiro only builds his hotel on a unimodal interval. Thus, the 
-      answer to the aformentioned query with heights $(1,2,3,4,3,4,5)$ is $5$.
-\end{itemize}
+In K City lives $n$ residents, they want to build a connection network with 
+each other. However, some residents want the network wire coloured black while 
+the others want the wire coloured white. The opinion of resident $i$ can be 
+quantified as a number $a_i$. If we build a network wire between residents 
+$i$ and $j$, the cost of this wire will be $a_i \times a_j$.
 
-Mysterious phenomena often occur in Celeste Mountain Range. 
-Sometimes the height of a certain area will change. 
-But don't worry, Mr.\ Oshiro will tell you the information just in time 
-before he comes to you with more and more questions! 
+The mayor of K City wants to network built such that:
+
+\begin{enumerate}
+\tightlist
+\item There is exactly $n - 1$ wire used.
+\item For any two different residents $i$ and $j$, there exists a sequence 
+$p_1, \cdots, p_k$ such that $p_1=i$, $p_k=j$ and residents $p_\ell$ and 
+$p_{\ell+1}$ share a wire for $1\le \ell < k$.
+\end{enumerate}
+
+In other words, the network should be a tree.
+
+You, the renowned mathematician of K City, want to know not only the 
+\emph{minimum} 
+cost to build the network. In the name of confusion, you also want to know the
+\emph{maximum} cost!

@@ -32,7 +32,7 @@ Adam has almost developed the first full functioning version of his game.
 He wants to test his game and creates a simple stage for testing.
 The maze of the stage is based on 10-by-10 grid. 
 We label the cell lying at the intersection of row $r$ and column $c$ with 
-$(r,c)$.
+$(r,c)$. In this problem, rows and columns are numbered from $0$ to $9$.
 Each grid cell contains exact one dot.
 The exterior boundary of the grid are walls. 
 No characters may move to the area outside of the grid.
@@ -42,14 +42,14 @@ Note that two grid cells $(r_1,c_1)$ and $(r_2,c_2)$ are adjacent to each other
 if and only if $|r_1-r_2|+|c_1+c_2|=1$.
  
 Adam has to prepare the movements of Pac-Man for the testing. 
-He need a set of trajectory with diversity, 
-but any of the trajectory must satisfy the following requirements.
+He needs a set of trajectory with diversity, 
+but any of the trajectories must satisfy the following requirements.
 \begin{itemize}
 \tightlist
 \item Pac-Man can eat all dots in the maze if it follows the trajectory.
 \item Pac-Man moves at most 10000 steps.
 \end{itemize}
-Adam need your help to generate a trajectory starting at cell $(x,y)$.
+Adam needs your help to generate a trajectory starting at cell $(x,y)$.
 Please write a program to generate a trajectory of Pac-Man satisfying all 
 requirements above and starting at cell $(x,y)$.
 
