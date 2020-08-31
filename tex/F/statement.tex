@@ -1,16 +1,28 @@
-Integer factorization serves an important role in many cryptography systems. 
-It is about finding two positive integers $p$ and $q$ 
-for a given positive composite number $n$
-such that $n=pq$ and $1<p\le q<n$.
-However, it is a well-known NP-intermediate candidate. 
-We still don't have any algorithm to solve it in polynomial time.
+There are $n$ children (numbered from $1$ to $n$) who are learning
+the arithmetic operations, which include \emph{addition} ``$+$'', 
+\emph{subtraction} ``$-$'', 
+\emph{multiplication} ``$\times$'', and \emph{division} ``$\div$'', on 
+rational numbers.
+Each child has a paper sheet with only one zero on it. 
+Their teacher, Frank, will give out $q$ operations. 
+The $i$-th operation consists of an operator $c_i$ and an integer $x_i$.
+However, Frank only wants some children to perform the operation.
+Only children $\ell_i,\ell_{i+1},\dots,r_i$ are asked to append the 
+operator $c_i$ and the number $x_i$ to their paper sheet.
+After Frank's assignment, every child has an expression to evaluate.
 
-Taylor, a number theorist, created another factorization problem as follows.
+For example, let $n=3$, $q=2$, $c_1$ be ``$+$'', $x_1=1$, $\ell_1=1$, $r_1=2$, 
+$c_2$ be ``$-$'',  $x_2=2$, $\ell_2=2$, $r_2=3$. The expressions of children
+$1$, $2$ and $3$ are $0+1$, $0+1-2$ and $0-2$, respectively.
 
-Given a prime number $p$ and two integers $a_0, a_1\in\{0,1,\dots p-1\}$. 
-Find two integers $b_0, b_1\in\{0,1,\dots p-1\}$ such that 
-$a_0\equiv b_0\cdot b_1~(\bmod~p)$ and $a_1\equiv b_0+b_1~(\bmod~p)$.
+However, Frank is really lazy and wants to verify the answers quickly. 
+So he asks you to calculate the sums of the values of all children's 
+expressions.
+If the value of the expression assigned to child $i$ is $\frac{a_i}{b_i}$, 
+then you have to use $a\times b^{-1}\mod 10^9+7$ instead. $b^{-1}$ is any number satisfying 
+$b\times b^{-1}\equiv 1\mod 10^9+7$. 
+If the sum is greater than $10^9+6$, then return the sum modulo $10^9+7$ to
+Frank.
 
-``This factoring is way much cooler, in the sense that it can
-be computed efficiently,'' said Taylor. 
-Now, he invites you to enjoy this new variant of factorization.
+Note: The arithmetic operations has PEMDAS rule, that is, 
+Multiplication/Division before Addition/Subtraction.
