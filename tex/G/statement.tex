@@ -1,28 +1,18 @@
-There are $n$ children (numbered from $1$ to $n$) who are learning
-the arithmetic operations, which include \emph{addition} ``$+$'', 
-\emph{subtraction} ``$-$'', 
-\emph{multiplication} ``$\times$'', and \emph{division} ``$\div$'', on 
-rational numbers.
-Each child has a paper sheet with only one zero on it. 
-Their teacher, Frank, will give out $q$ operations. 
-The $i$-th operation consists of an operator $c_i$ and an integer $x_i$.
-However, Frank only wants some children to perform the operation.
-Only children $\ell_i,\ell_{i+1},\dots,r_i$ are asked to append the 
-operator $c_i$ and the number $x_i$ to their paper sheet.
-After Frank's assignment, every child has an expression to evaluate.
+There is a retangle garden in front of Gina's house.
+The garden can be seen as an $n$-by-$m$ retangular grid.
+All grid cells are indentical squares, and two grid cells are adjacent 
+if they share an common edge.
 
-For example, let $n=3$, $q=2$, $c_1$ be ``$+$'', $x_1=1$, $\ell_1=1$, $r_1=2$, 
-$c_2$ be ``$-$'',  $x_2=2$, $\ell_2=2$, $r_2=3$. The expressions of children
-$1$, $2$ and $3$ are $0+1$, $0+1-2$ and $0-2$, respectively.
+Gina loves cacti and wants to plant as many as possible cacti in the garden.
+However, there are some constraints on planting cacti.
+\begin{itemize}
+\item In some cells, the soil can be too wet and unsuitable for cacti.
+Gina cannot plant cacti in those cells.
+\item In each cell, Gina may only plant at most one cactus. The soil in the 
+garden is not fertile enough to grow two or more cacti in a cell.
+\item In any pair of adjacent cells, Gina may only plant at most one cactus.
+Otherwise, the cacti in those cell may be harmed by each other's thorn.
+\end{itemize}
 
-However, Frank is really lazy and wants to verify the answers quickly. 
-So he asks you to calculate the sums of the values of all children's 
-expressions.
-If the value of the expression assigned to child $i$ is $\frac{a_i}{b_i}$, 
-then you have to use $a\times b^{-1}\mod 10^9+7$ instead. $b^{-1}$ is any number satisfying 
-$b\times b^{-1}\equiv 1\mod 10^9+7$. 
-If the sum is greater than $10^9+6$, then return the sum modulo $10^9+7$ to
-Frank.
-
-Note: The arithmetic operations has PEMDAS rule, that is, 
-Multiplication/Division before Addition/Subtraction.
+Please write a program to help Gina to compute how to plant cacti in the garden.
+Your program must maximize the number of cacti planted in the garden.

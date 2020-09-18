@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2020.9.1)  14 SEP 2020 22:02
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2020.8.26)  19 SEP 2020 00:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1179,10 +1179,10 @@ Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
  [2]
-(./B/statement.tex) (./B/input.tex) (./B/output.tex) (./B/spec.tex
+(./B/statement.tex) (./B/input.tex) (./B/output.tex
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [3])
+ [3]) (./B/spec.tex)
 (../B/data/sample/1.in) (../B/data/sample/1.ans)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
@@ -1213,33 +1213,34 @@ File: image/header.png Graphic file (type bmp)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
  [8] (./E/statement.tex)
-(./E/input.tex) (./E/output.tex) (./E/spec.tex) (../E/data/sample/1.in)
-(../E/data/sample/1.ans) (../E/data/sample/2.in) (../E/data/sample/2.ans
+(./E/input.tex) (./E/output.tex) (./E/spec.tex
+File: image/header.png Graphic file (type bmp)
+<image/header.png>
+ [9]) (../E/data/sample/1.in)
+(../E/data/sample/1.ans) (../E/data/sample/2.in) (../E/data/sample/2.ans)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
 
-[9])
-File: image/header.png Graphic file (type bmp)
-<image/header.png>
- [10] (./F/statement.tex) (./F/input.tex) (./F/output.tex) (./F/spec.tex
+[10] (./F/statement.tex) (./F/input.tex) (./F/output.tex) (./F/spec.tex
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
 
 [11]) (../F/data/sample/1.in) (../F/data/sample/1.ans)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [12]
+ [12] (./G/statement.tex) (./G/input.tex) (./G/output.tex) (./G/spec.tex
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [13]
+ [13]) (../G/data/sample/1.in)
+(../G/data/sample/1.ans) (../G/data/sample/2.in) (../G/data/sample/2.ans)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [14]
-(./H/statement.tex) (./H/input.tex) (./H/output.tex) (./H/spec.tex
+
+[14] (./H/statement.tex) (./H/input.tex) (./H/output.tex) (./H/spec.tex
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [15])
-(../H/data/sample/1.in) (../H/data/sample/1.ans) (../H/data/sample/2.in)
+
+[15]) (../H/data/sample/1.in) (../H/data/sample/1.ans) (../H/data/sample/2.in)
 (../H/data/sample/2.ans) (../H/data/sample/3.in) (../H/data/sample/3.ans)
 (../H/data/sample/4.in) (../H/data/sample/4.ans)
 File: image/header.png Graphic file (type bmp)
@@ -1258,12 +1259,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
  ) 
 Here is how much of TeX's memory you used:
- 29751 strings out of 479284
- 584364 string characters out of 5886221
- 911551 words of memory out of 5000000
- 46734 multiletter control sequences out of 15000+600000
+ 29771 strings out of 479284
+ 584726 string characters out of 5886220
+ 911549 words of memory out of 5000000
+ 46738 multiletter control sequences out of 15000+600000
  537392 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,12n,89p,1193b,1955s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,89p,1193b,1122s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on main.pdf (17 pages).
