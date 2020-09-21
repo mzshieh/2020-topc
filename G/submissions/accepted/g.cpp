@@ -88,7 +88,7 @@ int main(){
     queue<int> q;
     q.push(0);
     
-    int vis[100005];
+    int vis[100005]={};
     vis[0]=1;
     while(!q.empty()){
         int x=q.front();
