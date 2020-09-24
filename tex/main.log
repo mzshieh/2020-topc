@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2020.9.19)  21 SEP 2020 18:58
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2020.9.1)  24 SEP 2020 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1266,7 +1266,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
  ) 
 Here is how much of TeX's memory you used:
  29771 strings out of 479284
- 584726 string characters out of 5886220
+ 584726 string characters out of 5886221
  911551 words of memory out of 5000000
  46738 multiletter control sequences out of 15000+600000
  537392 words of font info for 59 fonts, out of 8000000 for 9000
