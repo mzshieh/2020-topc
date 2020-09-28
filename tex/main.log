@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2020.9.1)  24 SEP 2020 21:28
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2020.9.1)  28 SEP 2020 19:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1179,28 +1179,22 @@ Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
  [2]
+(./B/statement.tex) (./B/input.tex) (./B/output.tex
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [3]
-File: image/header.png Graphic file (type bmp)
-<image/header.png>
-
-[4] (./B/statement.tex) (./B/input.tex) (./B/output.tex
-File: image/header.png Graphic file (type bmp)
-<image/header.png>
- [5]) (./B/spec.tex)
+ [3]) (./B/spec.tex)
 (../B/data/sample/1.in) (../B/data/sample/1.ans)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [6] (./C/statement.tex)
+ [4] (./C/statement.tex)
 (./C/input.tex) (./C/output.tex) (./C/spec.tex) (../C/data/sample/1.in)
 (../C/data/sample/1.ans)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [7]
+ [5]
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [8] (./D/statement.tex
+ [6] (./D/statement.tex
 Overfull \hbox (29.7017pt too wide) in paragraph at lines 20--22
 []\TU/lmr/m/n/12 Please find a point $\OML/cmm/m/it/12 X$ \TU/lmr/m/n/12 strict
 ly inside the square $\OML/cmm/m/it/12 ABCD$ \TU/lmr/m/n/12 such that $\OML/cmm
@@ -1213,48 +1207,51 @@ File: image/farm.png Graphic file (type bmp)
 )
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [9] (./D/input.tex) (./D/output.tex) (./D/spec.tex) (../D/data/sample/1.in)
+ [7] (./D/input.tex) (./D/output.tex) (./D/spec.tex) (../D/data/sample/1.in)
 (../D/data/sample/1.ans) (../D/data/sample/2.in) (../D/data/sample/2.ans)
 (../D/data/sample/3.in) (../D/data/sample/3.ans)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [10] (./E/statement.tex)
+ [8] (./E/statement.tex)
 (./E/input.tex) (./E/output.tex) (./E/spec.tex
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [11]) (../E/data/sample/1.in)
+ [9]) (../E/data/sample/1.in)
 (../E/data/sample/1.ans) (../E/data/sample/2.in) (../E/data/sample/2.ans)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
 
-[12] (./F/statement.tex) (./F/input.tex) (./F/output.tex) (./F/spec.tex
+[10] (./F/statement.tex) (./F/input.tex) (./F/output.tex) (./F/spec.tex
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
 
-[13]) (../F/data/sample/1.in) (../F/data/sample/1.ans)
+[11]) (../F/data/sample/1.in) (../F/data/sample/1.ans)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [14] (./G/statement.tex) (./G/input.tex) (./G/output.tex) (./G/spec.tex
+ [12] (./G/statement.tex) (./G/input.tex) (./G/output.tex) (./G/spec.tex
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [15]) (../G/data/sample/1.in)
+ [13]) (../G/data/sample/1.in)
 (../G/data/sample/1.ans) (../G/data/sample/2.in) (../G/data/sample/2.ans)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
 
-[16] (./H/statement.tex) (./H/input.tex) (./H/output.tex) (./H/spec.tex
+[14] (./H/statement.tex) (./H/input.tex) (./H/output.tex) (./H/spec.tex
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
 
-[17]) (../H/data/sample/1.in) (../H/data/sample/1.ans) (../H/data/sample/2.in)
+[15]) (../H/data/sample/1.in) (../H/data/sample/1.ans) (../H/data/sample/2.in)
 (../H/data/sample/2.ans) (../H/data/sample/3.in) (../H/data/sample/3.ans)
 (../H/data/sample/4.in) (../H/data/sample/4.ans)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [18]
+ [16] (./I/statement.tex)
+(./I/input.tex) (./I/output.tex) (./I/spec.tex) (../I/data/sample/1.in)
+(../I/data/sample/1.ans) (../I/data/sample/2.in) (../I/data/sample/2.ans)
+(./I/note.tex)
 File: image/header.png Graphic file (type bmp)
 <image/header.png>
- [19]
+ [17]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
  (./main.aux)
@@ -1265,12 +1262,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
  ) 
 Here is how much of TeX's memory you used:
- 29771 strings out of 479284
- 584726 string characters out of 5886221
+ 29793 strings out of 479284
+ 585110 string characters out of 5886221
  911551 words of memory out of 5000000
- 46738 multiletter control sequences out of 15000+600000
+ 46742 multiletter control sequences out of 15000+600000
  537392 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,11n,89p,1193b,1122s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (19 pages).
+Output written on main.pdf (17 pages).
