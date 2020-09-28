@@ -65,7 +65,7 @@ void solve(){
     }
     double res=0;
     for(int i = 0;i<n;i++)res+=ans[i]*ans[i]*pi;//,printf("%lf\n",ans[i]);
-    printf("%lf\n",res);
+    printf("%.15f\n",res);
 }
 int main(){
     int t=1;
