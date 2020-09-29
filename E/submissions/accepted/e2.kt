@@ -7,41 +7,26 @@ fun gray(p: Int): List<Int> {
         addAll(code.map{it+1.shl(p-1)}.asReversed())}
 }
 
-fun output(p: List<Int>, d: List<Int>, s: List<Int>) {
-    // val out = ArrayList<Int>(s)
-    // println(p)
-    val index = ArrayList<Int>((0..19).toList())
-    index[18] = d[0].also{index[d[0]] = 18} // first diff <--> 2**18
-    if (d.size > 1 && 19 !in d) {
-        if (d.last() != 18) {
-            index[19] = d.last()
-            index[d.last()] = 19
-        }
-        else {
-            index[19] = d[0]
-            index[18] = 19
-        }
-    }
-    // println(index)
-    println((0..19).map{s[it] xor p[index[it]]}.joinToString(""))
-}
-
 fun solve(src: List<Int>, dst: List<Int>, step: Int, ham: Int) {
     val s = step - ham
     val h = s / 2
     var diff = ArrayList<Int>((0..19).filter{src[it] != dst[it]})
-    val cur = ArrayList<Int>(src)
+    val index = ArrayList<Int>((0..19).toList())
+    index[18] = diff[0].also{index[diff[0]] = 18}
+    if (diff.size > 1 && 19 !in diff) {
+        index[19] = if (diff.last() == 18) diff[0] else diff.last()
+        index[diff.last()] = 19
+    }
     val code = gray(19)
     for (i in 1..h) {
-        //println("code[$i] = ${code[i]}")
-        val pattern = (0..19).map{code[i].ushr(it).and(1)}
-        output(pattern, diff, src)
+        val pat = (0..19).map{code[i].ushr(it).and(1)}
+        println((0..19).map{src[it] xor pat[index[it]]}.joinToString(""))
     }
     for (i in (1.shl(19)-h-1) until (1 shl 19)) {
-        //println("code[$i] = ${code[i]}")
-        val pattern = (0..19).map{code[i].ushr(it).and(1)}
-        output(pattern, diff, src)
+        val pat = (0..19).map{code[i].ushr(it).and(1)}
+        println((0..19).map{src[it] xor pat[index[it]]}.joinToString(""))
     }
+    val cur = ArrayList<Int>(src)
     cur[diff[0]] = 1 - cur[diff[0]]
     for (i in diff.reversed()) {
         if (cur[i] != dst[i]) {
