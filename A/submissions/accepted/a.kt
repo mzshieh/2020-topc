@@ -1,6 +1,6 @@
 fun main() {
     var (x, y) = readLine()!!.split(" ").map{it.toInt()}
-    while (x != 0 && y != 0) {
+    while (x != 0 || y != 0) {
         println("$x $y")
         if (x > 0) x-- else y--
     }
