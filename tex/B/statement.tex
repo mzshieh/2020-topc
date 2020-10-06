@@ -1,14 +1,13 @@
 There is a transparent tape. Its length is exact one meter ($10^9$ nanometers).
 In this problem, all numbers are integers, and we use a number to denote 
 a position on the tape. The number $p$ denote the position of the point
-has a distance $p$ nanometers from the head of tape.
+has a distance $p$ nanometers from the head of the tape.
 
 Bob is a master dyer, so he can color the tape precisely in nanometer scale.
 He colors two sectors $[p_1,q_1]$ and $[p_2,q_2]$ into red. 
-The color of the tape at the position in the range from $p_1$ to
-$q_1$ is red. 
-The color of the tape at the position in the range from $p_2$ to $q_2$
-is also red. And the rest part remains transparent. 
+The color of the tape within the range between $p_1$ and $q_1$ is red. 
+The color of the tape within the range between $p_2$ and $q_2$ is also red. 
+And the rest parts of the tape remain transparent. 
 
 To verify Bob's skill, we ask Ben, the tape folding master, to help us.
 Ben can fold the tape perfectly at any position. 
@@ -16,7 +15,7 @@ If Ben fold the tape at $x$, then the new position of a certain point $p$
 will be one of the following cases.
 \begin{itemize}
 \tightlist
-\item If $p=x$, then it becomes the new head of tape, i.e, it becomes $0$.
+\item If $p=x$, then it becomes the new head of the tape, i.e, it becomes $0$.
 \item If $p>x$, then it becomes $p-x$.
 \item If $p<x$, then it becomes $x-p$. 
 \end{itemize}

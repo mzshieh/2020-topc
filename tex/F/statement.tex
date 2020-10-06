@@ -19,10 +19,11 @@ However, Frank is really lazy and wants to verify the answers quickly.
 So he asks you to calculate the sums of the values of all children's 
 expressions.
 If the value of the expression assigned to child $i$ is $\frac{a_i}{b_i}$, 
-then you have to use $a\times b^{-1}\mod 10^9+7$ instead. $b^{-1}$ is any number satisfying 
-$b\times b^{-1}\equiv 1\mod 10^9+7$. 
-If the sum is greater than $10^9+6$, then return the sum modulo $10^9+7$ to
+then you have to use $a\times b^{-1}\mod 10^9+7$ instead. $b^{-1}$ is any 
+integer satisfying $b\times b^{-1}\equiv 1\mod 10^9+7$. 
+If the sum is not in $[0, 10^9+7)$, then return the sum modulo $10^9+7$ to
 Frank.
 
 Note: The arithmetic operations has PEMDAS rule, that is, 
-Multiplication/Division before Addition/Subtraction.
+multiplications and divisions should be evaluated before evaluating additions
+and subtraction.
