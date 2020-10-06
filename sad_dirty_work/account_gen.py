@@ -10,7 +10,7 @@ teams = [team for team in teams if 'ACCEPTED' == team['status']]
 
 for i, team in enumerate(teams):
     passwd = ''.join(sample('ABCDEFGHJKLMNPQRSTUVWXYZ',12))
-    print('team{}'.format(i+1001), passwd, team['name'])
+    # print('team{}'.format(i+1001), passwd, team['name'])
     team['password'] = passwd
     team['account'] = 'team{}'.format(i+1001)
 
