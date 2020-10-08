@@ -34,6 +34,7 @@ fun verify(input: List<String>, ans: List<String>) {
     testIf(dest == out[D-1], "Wrong last step")
     for (i in 1 until D) 
         testIf(ham(out[i],out[i-1]) == 1, "Wrong step $i")
+    testIf(out.toSet().size == D, "Repeating")
 }
 
 // usage: judge_in judge_ans feedback_dir [options] < team_out
